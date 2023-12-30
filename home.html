@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="sv">
+  <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="pingback" href="http://www.stevied.io/home.html" />
+    <title>Stevie D</title>
+    <!-- style and script resources -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" media="all" />
+    <link rel="stylesheet" href="assets/home.css" media="all" />
+    <!--meta properties -->
+    <meta
+      name="description"a
+      content="Stevie D, cleaning company in Florida, United States"
+    />
+    <!--detailed robots meta https://developers.google.com/search/reference/robots_meta_tag -->
+    <meta
+      name="robots"
+      content="index, follow, max-snippet: -1, max-image-preview:large, max-video-preview: -1"
+    />
+    <!--open graph meta tags for social sites and search engines-->
+
+    <!-- Site fevicon icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon-io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon-io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon-io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon-io/site.webmanifest" />
+    <!--complete list of meta tags at - https://gist.github.com/lancejpollard/1978404 -->
+  </head>
+  <body class="home" id="home">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <!--FULL PAGE MENU-->
+    <div class="container-fluid menu-full-page text-center" id="menu-full-page">
+      <div class="menu-links p-0" id="menu-links">
+        <h3 class="link-item mb-3"><a href="home.html">home page</a></h3>
+        <h3 class="link-item mb-3">
+          <a href="home.html#about">About</a>
+        </h3>
+        <h3 class="link-item mb-3">
+          <a href="home.html#tservices">Services</a>
+        </h3>
+        <h3 class="link-item mb-3">
+          <a href="home.html#extra">Extras</a>
+        </h3>
+        <h3 class="link-item mb-3">
+          <a href="home.html#contact">Contact</a>
+        </h3>
+      </div>
+      <i class="fas fa-times close-icon" id="close-icon"></i>
+    </div>
+    <!--MAIN CONTAINER-->
+    <div
+      class="container-fluid w-100 h-100 p-0 main-container home-page"
+      id="main-container"
+    >
+      <!--MAIN-->
+      <main>
+        <!--NAVBAR-->
+        <div class="header-container fixed-bottom">
+          <header class="company-name-green w-100">
+            <picture>
+              <source
+                srcset="assets/images/logo/logo-green.png"
+                media="(min-width: 768px)"
+              />
+              <img
+                src="assets/images/logo/logo-green.png"
+                alt="logo green"
+                class="logo-nav"
+              />
+            </picture>
+          </header>
+          <nav class="mobile-nav nav-green">
+            <div onclick="menuHome()">
+              <i class="fas fa-bars hamburger-menu-green" id="hamburger"></i>
+            </div>
+          </nav>
+        </div>
+        <section class="company-intro container-fluid">
+          <div class="left-area">
+            <h3 class="title-inside-container-left">
+              Constantly. <br>
+              Consistantly. <br>
+              Clean.<br>
+              <br>
+              <br>
+              <span></span>
+
+            </h3>
+            <br>
+            <p class="paragraph-left">Stevie D Home Service</p>
+            <div class="btn-container btn-home">
+              <a
+                href="https://www.facebook.com/profile.php?id=100081742711046"
+                rel="noopener noreferrer"
+                target="_blank"
+                class="btn-cta"
+                >Book a cleaning</a
+              >
+            </div>
+          </div>
+        </section>
+        <!--ABOUT COMPANY SECTION-->
+        <section class="foretag container-fluid" id="foretag">
+          <h1 class="title-section green">
+            <i class="fas fa-leaf icon-title green"></i>Business
+          </h1>
+          <div class="row h-100">
+            <div
+              class="d-none d-md-block col-md-6 image-area text-center w-100 h-100 mb-5 p-0"
+            >
+              <picture>
+                <source
+                  srcset="assets/images/soap-xl.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="assets/images/soap-lg.jpg"
+                  media="(min-width: 992px)"
+                />
+                <source
+                  srcset="assets/images/soap-md.jpg"
+                  media="(min-width: 768px)"
+                />
+                <img
+                  src="assets/images/soap-sm.jpg"
+                  alt="Natural soap on a wooden table and vase with plant"
+                  class="image-section"
+                />
+              </picture>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col-12">
+                  <blockquote class="blockquote">
+                    <p class="mb-5 text-company">
+                      Over 20 years of experience cleaning, <br /> expect only the most professional experience & treatment<br />
+                      Treating each home as our own, for a one of a kind result, every time.<br /><br />
+                      Stevie D Home Service welcomes you. We dust, so you can dazzle.<span>- Steven</span>
+                    </p>
+                  </blockquote>
+                </div>
+                <div class="col-12">
+                  <div class="image-cropper">
+                    <img
+                      src="assets/images/avatar.jpg"
+                      alt="Avatar - Steven D"
+                      class="avatar"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--TJÄNSTER-->
+        <section class="tjänster container-fluid" id="tjänster">
+          <h1 class="title-section brown">
+            <i class="fas fa-leaf icon-title"></i> Services
+          </h1>
+          <div class="blurred service-intro">
+            <p class="service-intro">
+              •Complete deep cleaning<br> General pickup (GPU) <br> •Rental property staging <br> •Rental preperation: Residential & Commercial!
+            </p>
+            <p class="emphasis d-none d-md-block">
+              Have your rental property cleaned top to bottom and ready to the next occupants without a worry
+            </p>
+            <p class="emphasis last-emphasis d-none d-sm-block">
+              No hidden fee's or fine print. Available 24 hours a day, 7 days a week.
+            </p>
+          </div>
+
+          <div class="row mb-5">
+            <div class="col-12 col-md-6">
+              <div class="row section-text-area">
+                <div
+                  class="col-12 mb-5 text-center d-block d-sm-none mobile-col-brown"
+                >
+                  <p class="emphasis">dusting, dishes, trash, vacuuming, mopping, sweeping, organizing, rearrangement & more</p>
+                  <p class="emphasis">
+                   All you need <strong>24 hours a day</strong> just book!                 </p>
+                </div>
+                <div class="col-12 col-md-6 cleaning-options">
+                  <div class="col-12 mb-5 pb-3 cleaning-selection-col">
+                    <a href="#vecko" class="btn-choose">Weekly</a>
+                  </div>
+                  <div class="col-12 mb-5 pb-3 cleaning-selection-col">
+                    <a href="#vecko" class="btn-choose">One-time</a>
+                  </div>
+                  <div class="col-12 mb-5 pb-3 cleaning-selection-col">
+                    <a href="#stor" class="btn-choose">Deep</a>
+                  </div>
+                  <div class="col-12 mb-5 cleaning-selection-col">
+                    <a href="#extra" class="btn-choose">Extras</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 image-area text-center w-100 h-100 p-0">
+              <img
+                src="assets/images/room-sm.jpg"
+                alt="Minimalistic room with a plant on the left"
+                class="image-section"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!--VECKOSTÄDNING-->
+        <section class="container-fluid" id="vecko">
+          <h1 class="title-section brown mb-5">
+            <i class="fas fa-leaf icon-title"></i> Weekly cleaning
+          </h1>
+          <div class="row">
+            <div
+              class="col-12 col-md-6 image-area text-center w-100 h-100 mb-5 p-0"
+            >
+              <picture>
+                <source
+                  srcset="assets/images/toilet-lg.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="assets/images/toilet-md.jpg"
+                  media="(min-width: 768px)"
+                />
+                <img
+                  src="assets/images/toilet-sm.jpg"
+                  alt="Toilet sink with toothbrush and soap in natural colors"
+                  class="image-section"
+                />
+              </picture>
+            </div>
+            <div class="col-12 col-md-6 mb-5">
+              <div class="centered-area">
+                <p class="cleaning-description blurred">
+                  <strong>All Rooms: </strong>
+                  Dusting, Polishing; <br />Vacuuming, Sweeping, Mopping; <br /><br />
+                  <strong>Kitchen: </strong>Cleaning of sink, oven, dishwasher, stove and trash;
+                  <br />Washing dishes; <br />Drying dishes; <br />scrub every tile;
+                  <br /><br />
+                  <strong>Bathroom: </strong>
+                  Waste removal/trash removal; <br />Sinks cleaned; <br /> Toilet cleaned and bleached; <br />Shower/bathtub cleaned & bleached; <br />Mirror clean <br />Minor plumbing.<br /><br />
+                </p>
+                <div class="btn-container">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61554835751387"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    class="btn-cta"
+                    >Book it!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--STORSTÄDNING-->
+        <section class="container-fluid" id="stor">
+          <h1 class="title-section brown mb-5">
+            <i class="fas fa-leaf icon-title"></i> Deep Cleaning<br />
+          </h1>
+          <div class="row">
+            <div class="col-12 col-md-6 mb-5">
+              <div class="centered-area">
+                <p class="cleaning-description blurred">
+                  <strong>All Rooms </strong>
+                  Vacuuming <br />Mopping<br />
+                  Dusting<br />
+                  Cleaning of all mirror's & ceiling fans<br />
+                  Furniture deep cleaning & reupholstery<br />
+                  carpet cleaning<br /><br />
+                  <strong>Kitchen: </strong>Wash & Dry dishes<br />all waste bin (inside and outside) <br>
+                  Cleaning and drying all tables, chairs and lamps<br /><br /><br />
+                  <strong>Bathrooms</strong>
+                  Toilet bleaching and whitening, Deep clean tiles, minor plumbing
+                  <br />
+                </p>
+                <div class="btn-container">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61554835751387"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    class="btn-cta"
+                    >Book it!</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 image-area text-center w-100 h-100 mb-5 p-0"
+            >
+              <picture>
+                <source
+                  srcset="assets/images/stor-xl.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="assets/images/stor-lg.jpg"
+                  media="(min-width: 992px)"
+                />
+                <source
+                  srcset="assets/images/stor-md.jpg"
+                  media="(min-width: 768px)"
+                />
+                <img
+                  src="assets/images/stor-sm.jpg"
+                  alt="Toilet sink with toothbrush and soap in natural colors"
+                  class="image-section"
+                />
+              </picture>
+            </div>
+          </div>
+        </section>
+
+        <!--FLYTTSTÄDNING-->
+        <section class="container-fluid" id="flytt">
+          <h1 class="title-section brown mb-5">
+            <i class="fas fa-leaf icon-title"></i> Moving Cleaning
+          </h1>
+          <div class="row">
+            <div
+              class="col-12 col-md-6 image-area text-center w-100 h-100 mb-5 p-0"
+            >
+              <picture>
+                <source
+                  srcset="assets/images/living-lg.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="assets/images/living-md.jpg"
+                  media="(min-width: 768px)"
+                />
+                <img
+                  src="assets/images/living-sm.jpg"
+                  alt="Living room with a wooden ladder and a cloth"
+                  class="image-section"
+                />
+              </picture>
+            </div>
+            <div class="col-12 col-md-6 mb-5">
+              <div class="centered-area">
+                <p class="cleaning-description blurred">
+                  <strong>All Rooms </strong>
+                  Vacuuming <br />Mopping<br />
+                  Dusting<br />
+                  Cleaning of all mirror's & ceiling fans<br />
+                  Furniture deep cleaning & reupholstery<br />
+                  carpet cleaning<br /><br />
+                  <strong>Kitchen: </strong>Wash & Dry dishes<br />all waste bin (inside and outside) <br>
+                  Cleaning and drying all tables, chairs and lamps<br /><br /><br />
+                  <strong>Bathrooms</strong>
+                  Toilet bleaching and whitening, Deep clean tiles, minor plumbing
+                  <br />
+                </p>
+                <div class="btn-container">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61554835751387"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    class="btn-cta"
+                    >Book it!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--EXTRA-->
+        <section class="container-fluid" id="extra">
+          <h1 class="title-section brown mb-5">
+            <i class="fas fa-leaf icon-title"></i> Extra
+          </h1>
+          <div class="row">
+            <div class="col-12 col-md-6 mb-5">
+              <div class="centered-area">
+                <p class="cleaning-description blurred">
+                 Extra features of Stevie D Home Services include<br /><br />
+                  <strong>Rental Property preparation</strong>; <br /><br />
+                  <strong>Unit Staging</strong><br /><br />
+                  <strong>Cleaning</strong>.
+                </p>
+                <div class="btn-container">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61554835751387"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    class="btn-cta"
+                    >Book it!</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 image-area text-center w-100 h-100 mb-5 p-0"
+            >
+              <picture>
+                <source
+                  srcset="assets/images/sofa-l.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="assets/images/sofa-md.jpg"
+                  media="(min-width: 768px)"
+                />
+                <img
+                  src="assets/images/sofa-sm.jpg"
+                  alt="Minimal sofa with natural colors"
+                  class="image-section"
+                />
+              </picture>
+            </div>
+          </div>
+        </section>
+
+        <!--KONTAKT-->
+        <section class="kontakt container-fluid text-center" id="kontakt">
+          <h1 class="title-section green">
+            <i class="fas fa-leaf icon-title"></i>Contact
+          </h1>
+          <div class="row">
+            <div class="col-12 text-center">
+              <picture>
+                <source
+                  srcset="assets/images/logo/logo-lg.png"
+                  media="(min-width: 768px)"
+                />
+                <img
+                  src="assets/images/logo/logo.png"
+                  alt="Karolina Loniewska städfirma logo"
+                  class="logo-image mb-5"
+                />
+              </picture>
+            </div>
+          </div>
+
+          <address>
+            Saint Petersburg,<br />
+            Florida
+          </address>
+          <div class="contact-icons-area">
+            <div class="row">
+              <div class="col-12 text-center">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61554835751387"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-facebook contact-icon green"></i
+                ></a>
+              </div>
+              <div class="col-12 text-center">
+                <p class="text-cta">Email</p>
+                <a href="mailto:steven@steviedllc.com"
+                  ><i
+                    class="fas fa-envelope-open contact-icon green last-icon"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="text-center">
+        <p>
+          Website created by
+          <a
+            href="https://www.facebook.com/profile.php?id=61553438482288"
+            target="_blank"
+            rel="noopener"
+            >Travis G</a
+          >
+          - 2023
+        </p>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/background-nav.js" async defer></script>
+    <script src="assets/js/hoverMenu.js" async defer></script>
+    <script src="assets/js/menuHome.js" async defer></script>
+  </body>
+</html>
